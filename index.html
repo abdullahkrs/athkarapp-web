@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="أذكار - تطبيق عربي وإنجليزي مجاني بالكامل وبدون إعلانات لمتابعة الأذكار اليومية، الورد الشخصي، أوقات الصلاة، والتنبيهات." />
+  <meta name="description" content="أذكار - تطبيق مجاني بالعربية والإنجليزية والأوردية لقراءة المصحف ومتابعة الأذكار اليومية وأوقات الصلاة، دون إعلانات داخل التطبيق." />
+  <link rel="icon" type="image/png" href="assets/athkar-app-icon.png" />
+  <link rel="apple-touch-icon" href="assets/athkar-app-icon.png" />
   <title>أذكار | Athkar</title>
 
   <style>
@@ -86,12 +88,9 @@
       width: 44px;
       height: 44px;
       border-radius: 14px;
-      background: linear-gradient(145deg, var(--primary), #178c82);
-      color: white;
-      display: grid;
-      place-items: center;
+      object-fit: cover;
+      flex: none;
       box-shadow: 0 10px 25px rgba(15, 95, 89, 0.22);
-      font-size: 22px;
     }
 
     .nav-links {
@@ -451,7 +450,7 @@
   <header>
     <div class="container nav">
       <a class="brand" href="#top" aria-label="Athkar home">
-        <span class="brand-mark">☘</span>
+        <img class="brand-mark" src="assets/athkar-app-icon.png" alt="" width="44" height="44" />
         <span data-lang="ar">أذكار</span>
         <span data-lang="en">Athkar</span>
       </a>
